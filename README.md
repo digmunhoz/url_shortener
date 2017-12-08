@@ -35,10 +35,12 @@ The next, you'll see the instructions to manipulate the environment.
 MYSQL_USER=root
 MYSQL_ROOT_PASSWORD=passwd
 MYSQL_DATABASE=yourls
+MYSQL_DB_HOST=db
 
 # App configuration
 YOURLS_SITE=http://shorte.ner
 ADMIN_PASSWORD=passwd
+YOURLS_UNIQUE_URLS=false
 
 # Ldap Configuration
 LDAPAUTH_HOST=ldap://LDAP_ADDRESS
